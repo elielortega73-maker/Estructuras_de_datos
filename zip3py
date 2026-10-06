@@ -1,0 +1,7 @@
+nombres = ["Laptop", "PC", "Router"]
+modelos = ["HP", "Dell", "TP-Link"]
+ips = ["192.168.1.10", "192.168.1.11", "192.168.1.12"]
+estados = ["Activo", "Activo", "Inactivo"]
+
+for nombre, modelo, ip, estado in zip(nombres, modelos, ips, estados):
+    print(nombre, modelo, ip, estado)
